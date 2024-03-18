@@ -12,5 +12,5 @@ console.log(cathy["name"])
 cathy["hobby"] = "독서" // 속성 추가
 console.log(cathy)
 
-delete cathy.skills // 속성 삭제
+delete cathy.skills // 속성 제거
 console.log(cathy)
