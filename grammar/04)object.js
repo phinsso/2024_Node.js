@@ -8,3 +8,9 @@ const cathy = {
 console.log(cathy)
 console.log(cathy.name)
 console.log(cathy["name"])
+
+cathy["hobby"] = "독서" // 속성 추가
+console.log(cathy)
+
+delete cathy.skills // 속성 삭제
+console.log(cathy)
